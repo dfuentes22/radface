@@ -12,7 +12,7 @@ permalink: /blog/
 	  <div class="blog-item">
 		
 		{% if post.image %}
-			<a href="{{ post.url }}"><img src="../img/{{ post.image }}" alt="..."></a>
+			<a href="{{ site.baseurl }}{{ post.url }}"><img src="../img/{{ post.image }}" alt="..."></a>
 		{% endif %}
 		
 		<h3>{{ post.title }}</h3>
