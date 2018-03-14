@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rad Face by Em
-email: your-email@example.com
+email: imdanfuentes@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Makeup, Beauty, and Life
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://imdanielfuentes.com/radface/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/radface/" # the subpath of your site, e.g. /blog
+url: "https://imdanielfuentes.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /:year/:month/:day/:title:output_ext
