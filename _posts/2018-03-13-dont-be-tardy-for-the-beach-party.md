@@ -26,7 +26,8 @@ This palette is totally worth every penny. Between the scent, the colors and the
 
 Below is a link of where you can currently purchase this palette where it is not sold out!
 
-http://www.sephora.com/sweet-peach-eye-shadow-collection-palette-P407907?skuId=1806553&icid2=homepage_justarrived_us_122016_carousel:p407907
+[Two Too Faced Sweet Peach Palette](http://www.sephora.com/sweet-peach-eye-shadow-collection-palette-P407907?skuId=1806553&icid2=homepage_justarrived_us_122016_carousel:p407907)
+
 
 Don’t forget to subscribe to my blog and follow my instagram @fetchishappening_
 
