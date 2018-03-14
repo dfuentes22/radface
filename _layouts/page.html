@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="post">
+
+	{% if page.image %}
+		<div class="portfolio">
+			<img src="../../../../../img/{{ page.image }}" alt="">
+		</div>
+	{% endif %}
+	
+	<p class="meta smaller">
+		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>	
+	</p>
+	<div class="entry-text">
+		{{ content }}
+	</div>
+	
+</div>

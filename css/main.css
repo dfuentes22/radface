@@ -1,0 +1,367 @@
+/*------------ General ------------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:200');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 1.5em;
+}
+
+.logo-text {
+    font-family: 'Libre Baskerville', serif;
+    color: #e2a8a8;
+    line-height: 1.5em !important;
+    margin: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.primary-color {
+    color: #e2a8a8 !important;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding:50px;
+  margin-left: 300px;
+justify-content: center;
+}
+
+.main hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0; 
+}
+
+.page-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.page-tagline {
+    color: #555;
+    font-size: 14px;
+}
+
+@media (max-width: 991.98px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .main {
+        margin-left: 0px;
+    }
+
+    .page-title {
+        margin-top: 0px;
+    }
+
+    .main h2 {
+        text-align: center;
+    }
+}
+
+/*------------ Home - Side Bar ------------*/
+
+nav {
+    min-width: 300px;
+    background: #ffffff;
+    flex: 0 0 auto;
+    padding: 35px 30px 0px;
+    position: fixed;
+    height: 100vh;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul li a {
+    color: #444;
+}
+nav ul li a:hover {
+    color: #e2a8a8;
+    transition: .2s;
+}
+
+.smaller {
+    font-size: 11px !important;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+    text-transform: uppercase;
+    margin: 5px 0 0 0 !important;
+}
+
+@media (max-width: 991.98px) {
+    nav {
+        position: relative;
+        height: 300px;
+        text-align: center;
+    }
+}
+
+
+
+/*------------ Home: Main Area ------------*/
+
+.col {
+    column-count: 3;
+}
+
+.main .photo {
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .col {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col {
+        column-count: 1;
+    }
+}
+  
+/*------------ Pricing: Main Area ------------*/
+
+.pricing {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing ul {
+    margin-top: 0px !important;
+    padding: 0;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0,0,0,.08);
+}
+
+.pricing ul li {
+    line-height: 1.8em;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding: 8px 40px;
+    color: #555;
+    font-size: 14px;
+}
+ 
+.pricing ul li h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.pricing ul li.pricing-title-row {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+/*------------ Contact: Main Area ------------*/
+
+.contact {
+    margin-top: 45px;
+}
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], input[type="url"], textarea, select {
+    background-color: #eee;
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    max-width: 100%;
+    width: 70%;
+    margin: 10px 0 10px;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: normal;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.1s linear;
+    background-color: #e2a8a8;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 25px 11px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+}
+
+@media (max-width: 991.98px) {
+
+    input[type="text"], input[type="search"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], input[type="url"], input[type="submit"], textarea, select {
+        width: 100%;
+    }
+}
+
+/*------------ Blog: Main Area ------------*/
+
+.blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.blog-item {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;  
+}
+
+.blog-item h3 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.blog-item .meta {
+    color: #999;
+}
+
+.meta a:hover, a:active {
+    text-decoration: underline;
+}
+
+.entry-summary {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8em;
+    margin-top: 0px !important;
+    margin: 0;
+    padding: 0;
+}
+
+.blog hr {
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.blog-item .read-more {
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.blog-item a {
+    color: #e2a8a8;
+    text-align: right;
+} 
+
+.blog-item a:hover, .blog-item a:active {
+    text-decoration: underline;
+} 
+
+/*------------ Post: Main Area ------------*/
+
+.post {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #ffffff;
+}
+
+.post .portfolio {
+    max-width: 600px;
+    width: 100%;
+}
+
+.post img {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.post .meta {
+    margin-top: 0px;
+}
+
+.post .entry-text {
+    padding: 0px 80px 20px;
+}
+
+.post .entry-text p {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.5em;
+    margin-top: 0px !important;
+    margin: 0;
+}
+
+@media (max-width: 991.98px) {
+    .post img {
+        margin-top: 0px;
+    }
+}
