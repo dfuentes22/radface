@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Don't Be Tardy for the Beach Party"
+title:  "Don't Be Tardy for the Peach Party"
 image: blog01.jpg
 categories: Blog
 author: Emily
